@@ -49,8 +49,9 @@ The list of parameter files: in the param directory
 2. motion_prep: the corresponding roles of dynamic prepositions (See Table 5 in the paper)
 3. path_verb: the list of verbs that incorportate path information
 4. spatial_verb: the list of motion verbs and caused-motion verbs
-5. verb_form: the word forms of verbs
-6. wsc_examples: the examples in Winograd Schema Challenge
+5. SpRL_test.xml: the unannotated data of spatial role labeling task in Semeval2017
+6. verb_form: the word forms of verbs
+7. wsc_examples: the examples in Winograd Schema Challenge
 ------------------------------------------------------------------------------------
 
 The list of output files: in the output directory

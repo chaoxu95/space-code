@@ -173,7 +173,7 @@ def get_indicator_trajactor_landmark(number, relation_index, sentence, node):
 
 final_pattern_dict = get_final_pattern_dict(regular_pattern_dict)
 #file_name = 'semeval2017/train.xml'
-file_name = 'semeval2017/test.xml'
+file_name = 'param/SpRL_test.xml'
 xml_file = open(file_name, 'rb')
 xml_str = xml_file.read()
 xml_file.close()
@@ -226,7 +226,7 @@ for scene in scene_list:
 
 
 tree = etree.ElementTree(root)
-if file_name == 'semeval2017/train.xml':
-    tree.write('output/train-output.xml', pretty_print=True, xml_declaration=True, encoding='utf-8')
-elif file_name == 'semeval2017/test.xml':
+# if file_name == 'semeval2017/train.xml':
+#     tree.write('output/train-output.xml', pretty_print=True, xml_declaration=True, encoding='utf-8')
+if file_name == 'param/SpRL_test.xml':
     tree.write('output/test-output.xml', pretty_print=True, xml_declaration=True, encoding='utf-8')
